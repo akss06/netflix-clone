@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@300&display=swap');
+
+* {
+  background-color: #090909;
+}
+
+li {
+  display: inline-block;
+  list-style: none;
+  padding: 0px 6px;
+  color: white;
+  font-family: 'Inter Tight';
+  font-size: 15px;
+}
+
+li:hover:not(.home) {
+  color: #454545;
+}
+
+li:not(.home) {
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.home {
+  font-weight: bold;
+  cursor: default;
+}
+
+header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-shrink: 1;
+}
+
+.logo {
+  width: 92.5px;
+  height: 25px;
+  padding-left: 50px;
+  cursor: pointer;
+}
+
+.search {
+  width: 24px;
+  height: 24px;
+  margin-left: 920px;
+  cursor: pointer;
+}
+
+.notif {
+  cursor: pointer;
+}
+
+.second {
+  padding: 0px 15px;
+}
+
+.text {
+  display: flex;
+  color: white;
+  font-family: 'Inter Tight';
+  font-size: 13px;
+  justify-content: flex-start;
+  padding: 0px 45px;
+  flex-direction: column;
+}
+
+.images {
+  display: flex;
+  flex-direction: row;
+  overflow-x: auto;
+}
+
+.image {
+  margin-top: auto;
+  width: 293px;
+  height: auto;
+  border-radius: 6px;
+  padding: 0px 5px;
+}
+
+a {
+  text-decoration: none;
+}
+
+::-webkit-scrollbar {
+  overflow: scroll;
+  border-radius: 5vw;
+  width: .5em;
+  height: .5em;
+}
+
+::-webkit-scrollbar-track-piece {
+  background-color: #FFFFFF;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #E50914;
+}
