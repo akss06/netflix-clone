@@ -1,1 +1,1 @@
-Its a netflic clone i tried to make as a beginner
+Its a netflix clone i tried to make as a beginner
